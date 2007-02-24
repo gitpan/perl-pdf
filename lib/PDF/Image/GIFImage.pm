@@ -8,7 +8,7 @@
 # 10.9.2001 - Bugfix for Perl 5.6
 # 27.11.2001 - Bugfix, now also works on Windows (binmode) 
 
-package GIFImage;
+package PDF::Image::GIFImage;
 use strict;
 use vars qw(@ISA @EXPORT $VERSION $DEBUG);
 use Exporter;

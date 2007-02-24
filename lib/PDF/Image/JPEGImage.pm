@@ -7,7 +7,7 @@
 #
 # 27.11.2001 - Bugfix, now also works on Windows (binmode) 
 
-package JPEGImage;
+package PDF::Image::JPEGImage;
 use strict;
 use vars qw(@ISA @EXPORT $VERSION $DEBUG);
 use Exporter;

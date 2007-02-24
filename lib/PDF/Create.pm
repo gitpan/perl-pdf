@@ -796,9 +796,9 @@ sub image {
   my $s;
 
   if ($filename=~/\.gif$/i) {
-      $self->{'images'}{$num} = GIFImage->new();
+      $self->{'images'}{$num} = PDF::Image::GIFImage->new();
   } elsif ($filename=~/\.jpg$/i || $filename=~/\.jpeg$/i) {
-      $self->{'images'}{$num} = JPEGImage->new();
+      $self->{'images'}{$num} = PDF::Image::JPEGImage->new();
   }
 
   $image = $self->{'images'}{$num};
