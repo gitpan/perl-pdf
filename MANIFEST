@@ -1,0 +1,16 @@
+image.dat
+lib/PDF/Create.pm
+lib/PDF/Create/Outline.pm
+lib/PDF/Create/Page.pm
+lib/PDF/Image/GIFImage.pm
+lib/PDF/Image/JPEGImage.pm
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+sample.gif
+sample.jpg
+sample.pl
+sampleinterlace.gif
+t/minimal.t
+META.yml                                 Module meta-data (added by MakeMaker)
