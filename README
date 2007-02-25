@@ -3,6 +3,7 @@ sourceforge. This release is not authorized by the author and only on CPAN
 for more convenient installation. The only changes made were:
 - fixed broken MANIFEST file
 - set DISTVNAME in Makefile.PL and changed distribution name
+- moved some files to new eg/ directory to prevent from installing
 - this addition you're just reading
 
 -- Slaven
